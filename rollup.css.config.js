@@ -10,7 +10,7 @@ export default [{
   output: [
     {
       name: 'style',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'css/[name].css',
     }
   ],
@@ -30,7 +30,7 @@ export default [{
   output: [
     {
       name: 'style',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'css/[name].min.css',
     }
   ],
